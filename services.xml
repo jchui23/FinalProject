@@ -24,4 +24,12 @@
         <price>$300</price>
         <duration>5 days</duration>
     </service>
+    <service>
+        <name>Bauer Rock (South Mountain)</name>
+        <description>Take a trip down to Bauer Rock in the South Mountains. Experience this hard leveled course with all of your friends!</description>
+        <date>2024-12-05</date>
+        <time>11:00 AM</time>
+        <price>$400</price>
+        <duration>2 days</duration>
+    </service>
 </services>
