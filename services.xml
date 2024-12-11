@@ -6,6 +6,7 @@
         <date>2024-12-15</date>
         <time>9:00 AM</time>
         <price>$500</price>
+        <duration>3 days</duration>
     </service>
     <service>
         <name>Yosemite</name>
@@ -13,6 +14,7 @@
         <date>2024-11-10</date>
         <time>8:00 AM</time>
         <price>$250</price>
+        <duration>7 days</duration>
     </service>
     <service>
         <name>Blue Mountain</name>
@@ -20,5 +22,6 @@
         <date>2024-10-25</date>
         <time>10:00 AM</time>
         <price>$300</price>
+        <duration>5 days</duration>
     </service>
 </services>
