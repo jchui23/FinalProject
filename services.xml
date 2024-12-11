@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service>
+        <name>Appalachian Mountains</name>
+        <description>Join us for a climb up the Appalachian Mountains located in central Pennsylvania.</description>
+        <date>2024-12-15</date>
+        <time>9:00 AM</time>
+        <price>$500</price>
+    </service>
+    <service>
+        <name>Yosemite</name>
+        <description>Experience the beauty of Yosemite! Grab a coffee and climb!</description>
+        <date>2024-11-10</date>
+        <time>8:00 AM</time>
+        <price>$250</price>
+    </service>
+    <service>
+        <name>Blue Mountain</name>
+        <description>Experience the views of Blue Mountain! Enjoy Christmas with family on the peak of Blue Mountain.</description>
+        <date>2024-10-25</date>
+        <time>10:00 AM</time>
+        <price>$300</price>
+    </service>
+</services>
