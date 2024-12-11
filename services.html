@@ -25,7 +25,7 @@ function loadDoc() {
 function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
-    var table = '<table class="table table-bordered"><thead><tr><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th>';
+    var table = '<table class="table table-bordered"><thead><tr><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th><th>Duration</th>';
 
     var events = xmlDoc.getElementsByTagName("service");
     for (i = 0; i < events.length; i++) {  
@@ -35,6 +35,7 @@ function myFunction(xml) {
         table += '<td>' + events[i].getElementsByTagName("date")[0].childNodes[0].nodeValue + '</td>';
         table += '<td>' + events[i].getElementsByTagName("time")[0].childNodes[0].nodeValue + '</td>';
         table += '<td>' + events[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + '</td>';
+        table += '<td>' + events[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue + '</td>';
         table += '</tr>';
     }
 
