@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <services>
     <service>
+        <eventid>EVENT01</eventid>
         <name>Appalachian Mountains</name>
         <description>Join us for a climb up the Appalachian Mountains located in central Pennsylvania.</description>
         <date>2024-12-15</date>
@@ -9,6 +10,7 @@
         <duration>3 days</duration>
     </service>
     <service>
+        <eventid>EVENT02</eventid>
         <name>Yosemite</name>
         <description>Experience the beauty of Yosemite! Grab a coffee and climb!</description>
         <date>2024-11-10</date>
@@ -17,6 +19,7 @@
         <duration>7 days</duration>
     </service>
     <service>
+        <eventid>EVENT03</eventid>
         <name>Blue Mountain</name>
         <description>Experience the views of Blue Mountain! Enjoy Christmas with family on the peak of Blue Mountain.</description>
         <date>2024-10-25</date>
@@ -25,6 +28,7 @@
         <duration>5 days</duration>
     </service>
     <service>
+        <eventid>EVENT04</eventid>
         <name>Bauer Rock (South Mountain)</name>
         <description>Take a trip down to Bauer Rock in the South Mountains. Experience this hard leveled course with all of your friends!</description>
         <date>2024-12-05</date>
