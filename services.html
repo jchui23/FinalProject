@@ -33,7 +33,7 @@ function loadDoc() {
 function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
-    var table = '<table class="table table-bordered"><thead><tr><th>Event ID</th><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th><th>Duration</th>';
+    var table = '<table class="table table-bordered"><thead><tr><th>Eventid</th><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th><th>Duration</th>';
 
     var events = xmlDoc.getElementsByTagName("service");
     for (i = 0; i < events.length; i++) {  
@@ -61,6 +61,7 @@ function myFunction(xml) {
             <div class="btn-group" role="group">
                 <a class="btn btn-primary btn-sm" href="index.html" role="button">Home</a>
                 <a class="btn btn-primary btn-sm mx-2" href="about.html" role="button">About Us</a>
+                <a class="btn btn-primary btn-sm " href="about.html" role="button">Shop</a>
             </div>
         </div>
     </div>
