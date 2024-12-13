@@ -33,7 +33,7 @@ function loadDoc() {
 function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
-    var table = '<table class="table table-bordered"><thead><tr><th>Eventid</th><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th><th>Duration</th>';
+    var table = '<table class="table table-bordered"><thead><tr><th>Event ID</th><th>Event Name</th><th>Description</th><th>Date</th><th>Time</th><th>Price</th><th>Duration</th>';
 
     var events = xmlDoc.getElementsByTagName("service");
     for (i = 0; i < events.length; i++) {  
