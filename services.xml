@@ -6,7 +6,7 @@
         <description>Join us for a climb up the Appalachian Mountains located in central Pennsylvania.</description>
         <date>2024-12-15</date>
         <time>9:00 AM</time>
-        <price>$500</price>
+        <price>$300</price>
         <duration>3 days</duration>
     </service>
     <service>
@@ -24,7 +24,7 @@
         <description>Experience the views of Blue Mountain! Enjoy Christmas with family on the peak of Blue Mountain.</description>
         <date>2024-10-25</date>
         <time>10:00 AM</time>
-        <price>$300</price>
+        <price>$500</price>
         <duration>5 days</duration>
     </service>
     <service>
