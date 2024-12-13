@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Adventure Showcase</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="adventure1.jpg" class="card-img-top" alt="Adventure Photo">
+                <div class="card-body">
+                    <h5 class="card-title">Climbing Expedition - El Capitan</h5>
+                    <p class="card-text"><strong>Date:</strong> July 15, 2024</p>
+                    <p class="card-text"><strong>Customer:</strong> Alex Johnson</p>
+                    <p class="card-text">“The guides were fantastic! This was the adventure of a lifetime!”</p>
+                    <p>We scaled the challenging cliffs of El Capitan in Yosemite National Park, guided by experienced professionals who ensured safety and fun throughout the climb.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="adventure2.jpg" class="card-img-top" alt="Adventure Photo">
+                <div class="card-body">
+                    <h5 class="card-title">Himalayan Trek</h5>
+                    <p class="card-text"><strong>Date:</strong> August 20, 2024</p>
+                    <p class="card-text"><strong>Customer:</strong> Maria Fernandez</p>
+                    <p class="card-text">“Reaching the summit was a dream come true!”</p>
+                    <p>This trek led adventurers through the breathtaking Himalayan landscapes, with unforgettable views and remarkable personal achievements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="mt-5 text-center">For More Information</h2>
+    <form id="infoForm" class="mt-3">
+        <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script>
+
+const form = document.getElementById('infoForm');
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    
+    alert(`Thank you, ${name}! We will contact you at ${email}.`);
+    form.reset();
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
